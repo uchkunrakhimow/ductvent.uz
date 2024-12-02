@@ -4,22 +4,24 @@ import logo from "/image.png";
 
 export default function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="absolute inset-0 bg-opacity-50 backdrop-blur-3xl"></div>{" "}
       {/* Blurred background */}
-      <div className="bg-slate-50 rounded-xl shadow-lg p-8 max-w-md text-center relative z-10 transition-all transform hover:shadow-xl hover:backdrop-blur-md">
+      <div className="bg-slate-50 rounded-xl shadow-lg p-6 sm:p-8 max-w-md w-full text-center relative z-10 transition-all transform hover:shadow-xl hover:backdrop-blur-md">
         {/* Логотип */}
         <div className="mb-6">
           <img
             src={logo}
             alt="Логотип"
-            className="w-24 h-24 mx-auto rounded-full"
+            className="w-24 h-24 mx-auto rounded-full sm:w-32 sm:h-32"
           />
         </div>
 
         {/* Заголовок */}
-        <h1 className="text-2xl font-bold text-gray-800 mb-2">Ductvent.uz</h1>
-        <p className="text-gray-600 mb-6">
+        <h1 className="text-2xl font-bold text-gray-800 mb-2 sm:text-2xl">
+          Ductvent.uz
+        </h1>
+        <p className="text-gray-600 mb-6 text-sm sm:text-base">
           Свяжитесь с нами и узнайте больше о наших услугах.
         </p>
 
