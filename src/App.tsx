@@ -26,7 +26,7 @@ export default function App() {
         {/* Кнопки */}
         <div className="space-y-4 mb-8">
           <a
-            href="https://instagram.com/@ductvent.uz"
+            href="https://instagram.com/ductvent.uz"
             className="flex items-center justify-center bg-pink-500 text-white py-2 px-4 rounded-lg font-medium shadow-md hover:bg-pink-600 transition duration-200"
             target="_blank"
             rel="noopener noreferrer"
@@ -35,7 +35,7 @@ export default function App() {
             Instagram
           </a>
           <a
-            href="https://t.me/@dvbconst"
+            href="https://t.me/dvbconst"
             className="flex items-center justify-center bg-blue-500 text-white py-2 px-4 rounded-lg font-medium shadow-md hover:bg-blue-600 transition duration-200"
             target="_blank"
             rel="noopener noreferrer"
